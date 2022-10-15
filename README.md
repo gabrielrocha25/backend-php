@@ -6,17 +6,22 @@ Desenvolver uma solução para o desafio proposto com a utilização de orienta�
 
 ### Como realizar
 
-Faça o fork do repositório, realize os seus commits e ao final envie o link do seu repositório para o e-mail rh@moovin.com.br. Este repositório já possui uma base para iniciar o desenvolvimento, utilize-a como achar necessário. 
+Faça o fork do repositório, realize os seus commits e ao final envie o link do seu repositório para o e-mail rh@moovin.com.br. Este repositório já possui uma base para iniciar o desenvolvimento, utilize-a como achar necessário.
 
 Para iniciar você deve instalar as dependências:
+
 ```zsh
   foo@bar:~$ composer install
 ```
+
 Em seguida você poderá executar exemplos de utilização do sistema criado através do comando:
+
 ```zsh
   foo@bar:~$ php main.php
 ```
+
 Também é possível optar por implementar testes de unidade, utilizando o comando abaixo para execução:
+
 ```zsh
   foo@bar:~$ ./vendor/bin/phpunit --bootstrap vendor/autoload.php --configuration phpunit.xml
 ```
@@ -29,11 +34,11 @@ Você precisa desenvolver um algoritmo para um caixa eletrônico, seguindo os re
 
 - O banco possui dois tipos de conta: Conta Corrente e Conta Poupança;
 - Cada tipo de conta possui um limite de Saque por acesso:
-	- Conta Corrente: B$ 600,00;
-	- Conta Poupança: B$ 1.000,00;
+  - Conta Corrente: B$ 600,00;
+  - Conta Poupança: B$ 1.000,00;
 - Cada tipo de conta possui uma taxa de operação que deve ser descontado do saldo sempre que uma operação de Saque for realizada:
-	- Conta Corrente: B$ 2,50;
-	- Conta Poupança: B$ 0,80;
+  - Conta Corrente: B$ 2,50;
+  - Conta Poupança: B$ 0,80;
 - As operações que o Caixa Eletrônico disponibiliza são: Depósito, Saque, Transferência;
 - A operação de Depósito deve receber o valor a ser depositado;
 - A operação de Saque deve receber o valor a ser retirado além de validar se a conta possui saldo e se o valor não excede o limite do acesso;
@@ -46,4 +51,3 @@ Você precisa desenvolver um algoritmo para um caixa eletrônico, seguindo os re
 ### Dúvidas
 
 Em caso de dúvida entre em contato pelo skype **matheusmoovin**
-

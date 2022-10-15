@@ -8,8 +8,8 @@ use Moovin\Job\Backend\SavingsAccount as savingsAccount;
 $checkingAccount = new CheckingAccount();
 $savingsAccount = new SavingsAccount();
 
-$checkingAccount->deposit(2000);
-$savingsAccount->deposit(1000);
+$checkingAccount->deposit(2100);
+$savingsAccount->deposit(2200);
 
 do {
     do {
